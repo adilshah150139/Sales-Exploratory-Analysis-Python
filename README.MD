@@ -6,17 +6,19 @@ A complete end-to-end analysis of the Superstore Sales dataset using Python.
 
 ## Table of Contents
 
+## Table of Contents
+
 1. [Project Overview](#1-project-overview)
 2. [Business Questions](#2-business-questions)
 3. [Dataset](#3-dataset)
 4. [Methodology](#4-methodology)
-5. [Findings](#5-findings)
-6. [Visualizations](#6-visualizations)
+5. [Charts Overview](#5-charts-overview)
+6. [Findings](#6-findings)
 7. [Technologies](#7-technologies)
 8. [Project Structure](#8-project-structure)
 9. [How to Run](#9-how-to-run)
 10. [Author](#10-author)
-11. [License](#11-license)
+
 ## 1. Project Overview
 
 This project analyzes three years of Superstore sales data to answer common business questions using Python. It covers data loading, cleaning, feature engineering, analysis, and visualization.
@@ -53,11 +55,27 @@ The goal is to demonstrate a full exploratory data analysis (EDA) workflow and e
 3. Feature engineering (Line_Total, Discount_Amount, Profit_Per_Line)
 4. Business analysis using groupby summaries
 5. Visualization with Matplotlib
-6. Report generation (JSON and text)
+6. Report generation (JSON)
 
 ---
 
-## 5. Findings
+
+## 5. Charts Overview
+
+All charts are stored in the `charts/` folder.
+
+| Chart | File |
+|-------|------|
+| Revenue by Category | charts/revenue_by_category.png |
+| Top 10 Sub-Categories | charts/top_subcategories.png |
+| Revenue by Region | charts/revenue_by_region.png |
+| Top 5 Customers | charts/top_customers.png |
+| Profit by Sub-Category | charts/profit_by_subcategory.png |
+| Revenue Over Time | charts/revenue_over_time.png |
+
+---
+
+## 6. Findings
 
 ### Overall Metrics
 
@@ -80,7 +98,7 @@ The goal is to demonstrate a full exploratory data analysis (EDA) workflow and e
 
 ![Revenue by Category](Charts/revenue_by_category.png)
 
-### Top 5 Sub-Categories by Revenue
+### Top 10 Sub-Categories by Revenue
 
 | Sub-Category | Revenue |
 |--------------|---------|
@@ -89,8 +107,13 @@ The goal is to demonstrate a full exploratory data analysis (EDA) workflow and e
 | Tables | $1,144,514 |
 | Storage | $1,097,596 |
 | Binders | $1,012,914 |
+| Machines | $914,790 |
+| Accessories | $876,644 |
+| Copiers | $657,721 |
+| Bookcases | $597,826 |
+| Appliances | $547,368 |
 
-![Top Sub-Categories](Charts/top_subcategories.png)
+![Top 10 Sub-Categories](Charts/top_subcategories.png)
 
 ### Loss-Making Sub-Categories
 
@@ -100,6 +123,7 @@ The goal is to demonstrate a full exploratory data analysis (EDA) workflow and e
 | Bookcases | $-3,472.56 |
 | Supplies | $-1,189.10 |
 
+![Profit by Sub-Category](Charts/profit_by_subcategory.png)
 
 ### Regional Performance
 
@@ -109,6 +133,8 @@ The goal is to demonstrate a full exploratory data analysis (EDA) workflow and e
 | East | $3,376,934 |
 | Central | $2,475,833 |
 | South | $2,034,725 |
+
+![Revenue by Region](Charts/revenue_by_region.png)
 
 ### Top 5 Customers
 
@@ -120,22 +146,15 @@ The goal is to demonstrate a full exploratory data analysis (EDA) workflow and e
 | Becky Martin | $88,175 | 4 |
 | Joseph Holt | $80,520 | 6 |
 
----
+![Top 5 Customers](Charts/top_customers.png)
 
-## 6. Visualizations
 
-All charts are stored in the `charts/` folder.
+### Revenue Over Time
 
-| Chart | File |
-|-------|------|
-| Revenue by Category | charts/revenue_by_category.png |
-| Top 10 Sub-Categories | charts/top_subcategories.png |
-| Revenue by Region | charts/revenue_by_region.png |
-| Top 5 Customers | charts/top_customers.png |
-| Profit by Sub-Category | charts/profit_by_subcategory.png |
-| Revenue Over Time | charts/revenue_over_time.png |
+![Revenue Over Time](Charts/revenue_over_time.png)
 
 ---
+
 
 ## 7. Technologies
 
@@ -170,29 +189,6 @@ Sales-Exploratory-Analysis-Python/
 └── README.md
 ```
 ---
-### Revenue by Category
-
-![Revenue by Category](Charts/revenue_by_category.png)
-
-### Top 10 Sub-Categories
-
-![Top Sub-Categories](Charts/top_subcategories.png)
-
-### Revenue by Region
-
-![Revenue by Region](Charts/revenue_by_region.png)
-
-### Top 5 Customers
-
-![Top 5 Customers](Charts/top_customers.png)
-
-### Profit by Sub-Category
-
-![Profit by Sub-Category](Charts/profit_by_subcategory.png)
-
-### Revenue Over Time
-
-![Revenue Over Time](Charts/revenue_over_time.png)
 
 ## 9. How to Run
 
@@ -210,3 +206,15 @@ Sales-Exploratory-Analysis-Python/
 git clone https://github.com/adilshah150139/Sales-Exploratory-Analysis-Python.git
 cd Sales-Exploratory-Analysis-Python
 ```
+---
+
+## 10. Author
+
+ADIL SHAH
+
+- GitHub: [@adilshah150139](https://github.com/adilshah150139)
+- LinkedIn: [linkedin Profile](https://www.linkedin.com/in/adil-shah-941b532b0/)
+- Email: adilshah03032005.com
+
+---
+---
